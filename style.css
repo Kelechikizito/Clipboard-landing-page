@@ -1,0 +1,144 @@
+body {
+    margin: o;
+    padding-top: 100px;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.first-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.first-item-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-btn-ios {
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 5px;
+}
+
+.top-btn-mac {
+    background-color: hsl(233, 100%, 69%);
+    margin-left: 5px;
+}
+
+.top-btn-ios, .top-btn-mac {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+.second-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3rem;
+
+}
+
+.second-item-img {
+   position: relative;
+   right: 38px;
+   z-index: -1;
+}
+
+.second-item-img > img {
+    width: 100%;
+}
+
+.second-item-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.third-container {
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+}
+
+.third-item > img {
+    width: 50%;
+}
+
+.fourth-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.fourth-item {
+    flex-basis: 28%;
+}
+
+.fifth-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sixth-container {
+    margin-top: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.last-container {
+    margin-top: 100px;
+    padding: 20px 0;
+    background-color: hsla(202, 11%, 66%, 0.2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.details {
+    flex-basis: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+}
+
+.social-media > svg {
+    margin: 0 10px;
+}
+
+.details > p:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+.social-media > svg path:hover {
+    fill: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.svg-logo {
+    transform: scale(0.5);
+}
